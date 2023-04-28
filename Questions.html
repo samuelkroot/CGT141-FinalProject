@@ -46,51 +46,51 @@
     </nav>
 
     <div class="jumbotron jumbotron-fluid text-center">
-       <h1 class="display-4">Welcome to Step Up Cooking!</h1>
-       <p class="lead">Your one-stop-shop for your beginner recipe, nutrition and cooking technique needs!</p>
+       <h1 class="display-4">Questions</h1>
+       <p class="lead">Ask questions about cooking, recipes, or our website here!</p>
     </div>
     <div class="container">
-       <br>
-       	<div class="row">
-          <div class="col-md-4">
-             <div class="card">
-                <img class="card-img-top" src="images/recipehero.jpg" alt="Card image cap">
-                <div class="card-body">
-                   <h4 class="card-title">Recipes</h4>
-                   <p class="card-text">Simple, beginner-friendly recipes to get yourself started and learn basic, nutritious meals.</p>
-                   <br><br>
-                   <a href="RecipesHub.html" class="btn btn-primary">Go to Recipes</a>
-                </div>
-             </div>
-          </div>
-			<br/>
-		  <div class="col-md-4">
-             <div class="card">
-                <img class="card-img-top" src="images/guideshero.jpg" alt="Card image cap">
-                <div class="card-body">
-                   <h4 class="card-title">Guides</h4>
-                   <p class="card-text">Our guides offer beginner cooks easy-to-follow, comprehensive explanations of cooking techniques and nomenclature.</p>
-                   <br><br>
-                   <a href="GuidesHub.html" class="btn btn-primary">Go to Guides</a>
-                </div>
-             </div>
-          	</div>
-			<br/>
-			<div class="col-md-4">
-             <div class="card">
-                <img class="card-img-top" src="images/nutritionhero.jpg" alt="Card image cap">
-                <div class="card-body">
-                   <h4 class="card-title">Nutrition</h4>
-                   <p class="card-text">Pointers, explanations and tips on nutrition, how it relates to your body, and a starting point to build a better diet.</p>
-                   <br><br>
-                   <a href="Nutrition.html" class="btn btn-primary">Go to Nutrition</a>
-                </div>
-             </div>
-          </div>
-			<br/>
-       	</div>
-       <br/>
-       <br/>
+       	<br>
+		<form action="Questions - Receipt.html">
+		  <div class="form-row">
+			<div class="form-group col-md-6">
+			  <label for="inputFirst">First Name</label>
+			  <input type="text" class="form-control" id="inputFirst" placeholder="John" required>
+			</div>
+			<div class="form-group col-md-6">
+			  <label for="inputLast">Last Name</label>
+			  <input type="text" class="form-control" id="inputLast" placeholder="Doe" required>
+			</div>
+		  </div>
+			<div class="form-row">
+			  <div class="form-group col-md-6">
+				<label for="inputEmail">Email</label>
+				<input type="email" class="form-control" id="inputAddress" placeholder="name@site.com" required>
+			  </div>
+			  <div class="form-group col-md-6">
+				<label for="inputPhone">Phone Number</label>
+				<input type="text" class="form-control" id="inputPhone" placeholder="(###)-###-####" required>
+			  </div>
+			</div>
+		  <div class="form-row">
+			<div class="form-group col-md-12">
+			  <label for="inputQuestion">Question</label>
+			  <textarea class="form-control" id="inputQuestion" rows="3" required></textarea>
+			</div>
+		  </div>
+		  <div class="form-group">
+			<div class="form-check">
+			  <input class="form-check-input" type="checkbox" id="gridCheck">
+			  <label class="form-check-label" for="gridCheck">
+				Notify me if my question is answered
+			  </label>
+			</div>
+		  </div>
+			<br>
+		  <button type="submit" class="btn btn-primary">Submit Question</button>
+		</form>
+		<br>
+		<br>
        <div class="row">
           <div class="col-md-12 text-center">
              <div class="card">
