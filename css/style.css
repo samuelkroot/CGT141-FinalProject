@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+a.btn, a.nav-link, a.navbar-brand {
+	font-family: forma-djr-text, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
 h1.display-4 {
 	font-family: forma-djr-text, sans-serif;
 	font-weight: 700;
@@ -12,23 +18,25 @@ p.lead {
 	font-style: italic;
 }
 
-h4.card-title, h3 {
+h4.card-title, h3, h2.directions, .card-header {
 	font-family: forma-djr-text, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
 
-p.card-text, p, h4, label.form-check-label, div.form-group {
+p.card-text, label.form-check-label, div.form-group, p.align-self-center, ul.list-group, div.directions {
 	font-family: forma-djr-text, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
 
-a.btn, a.nav-link, a.navbar-brand, a {
+div.text-center {
 	font-family: forma-djr-text, sans-serif;
-	font-weight: 500;
+	font-weight: 400;
 	font-style: normal;
 }
+
+
 
 
 
